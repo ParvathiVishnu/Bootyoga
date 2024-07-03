@@ -1,0 +1,229 @@
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.logo img
+{
+    width:70px;
+}
+.logo a span
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-item a:hover
+{
+    border-bottom: 3px solid black;
+    
+}
+
+/* Introduction Style */
+
+
+.head
+{
+    font-size: 30px;
+  
+}
+.myh2 span{
+
+    color:rgb(155, 11, 155); }
+
+.mycol{
+    /* height: 550px; */
+    /* border: 3px solid black; */
+    position: relative;
+}
+ .mycol img
+ {
+    width:80%;
+    
+ }
+ .mycol.image
+ {
+    display: flex;
+    justify-content: center;
+ }
+
+ .emailbox
+{
+    height:70px;
+    width:250px;
+    border:3px solid black;
+    border-radius:15px;
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+    padding:10px;
+    position: absolute;
+    top:50px;
+    left:100px;
+    background-color: white;
+    opacity:0.8;
+
+}
+
+.emailcircle
+{
+    height:60px;
+    border: 3px solid black;
+    border-radius: 70%;
+    background-color:rgb(25, 25, 212);
+
+}
+
+.emailbox i{
+    font-size: 25px; 
+    padding: 15px;
+    color:white;
+}
+
+.emailbox h2
+{
+    font-size: 20px;
+}
+
+.telephone
+{
+    height:70px;
+    width:230px;
+    border:3px solid black;
+    border-radius:15px;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+    padding:10px;
+    position:absolute;
+    top:500px;
+    left:400px;
+    background-color: white;
+    opacity:0.8;
+
+}
+.telcircle
+{
+    height:60px;
+    border: 3px solid black;
+    border-radius: 70%;
+    background-color:red;
+}
+.telephone i{
+    font-size: 25px; 
+    padding: 15px;
+    color:white;
+}
+
+.telephone h3
+{
+font-size: 18px;
+}
+
+
+.running
+{
+display: flex;
+flex-direction: column;
+height: 285px;
+width:200px;
+border:3px solid black;
+border-radius: 10px;
+align-items:flex-start;
+gap: 5px;
+padding:0px 20px;
+justify-content: center;
+position:absolute;
+top:160px;
+left:480px;
+background-color: white;
+opacity:0.9;
+
+
+}
+
+
+.stretch
+{
+display: flex;
+flex-direction: column;
+height:200px;
+width:300px;
+border:3px solid black;
+border-radius: 10px;
+align-items:flex-start;
+gap: 5px;
+padding:0px 20px;
+justify-content: center;
+position: absolute;
+top:680px;
+left: 100px;
+background-color: white;
+}
+
+
+/* About Us  */
+
+.left_about
+{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    width: 900px;
+}
+
+.left_about div{
+    flex:1;
+    height: 330px;
+    width:200px;
+    transition:0.5s;
+  
+}
+
+.left_about div:hover
+{
+    flex:3;
+ }
+
+ .left_about>div:nth-of-type(2)
+ {
+    height:500px;
+ } 
+
+.left_about div img{
+width:100%;
+height:100%;
+object-fit: cover;
+border-radius: 20px;
+}
+
+.right_about
+{
+width: 550px;
+display: flex;
+flex-direction: column;
+/* /* gap:1rem; * */
+align-items: flex-start;
+}
+
+.right_about h1{
+    font-family:Teko;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.right_about p{
+    font-family: Fjalla One;
+    color: rgb(48, 45, 45,0.6);
+}
+
+.mycol2
+{
+    /* height:300px; */
+    /* border: 3px solid black; */
+}
